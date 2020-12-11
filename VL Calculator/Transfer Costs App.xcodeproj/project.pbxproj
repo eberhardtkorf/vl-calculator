@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221C793A20F4CF1F0052115C /* TransferDutySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C793920F4CF1F0052115C /* TransferDutySettingsViewController.swift */; };
+		221C793C20F4DA100052115C /* DeedsOfficeFeesSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C793B20F4DA100052115C /* DeedsOfficeFeesSettingsViewController.swift */; };
+		221C793E20F4E5B90052115C /* DiverseCostsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C793D20F4E5B90052115C /* DiverseCostsSettingsViewController.swift */; };
+		221C794020F4EC9F0052115C /* SettingsCalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221C793F20F4EC9F0052115C /* SettingsCalibrationViewController.swift */; };
+		2226C33D20F3FE16009281B6 /* TransferFeesSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226C33C20F3FE16009281B6 /* TransferFeesSettingsViewController.swift */; };
+		22ECD23D20F2AB3400C9241A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ECD23C20F2AB3400C9241A /* AppDelegate.swift */; };
+		22ECD23F20F2AB3400C9241A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ECD23E20F2AB3400C9241A /* ViewController.swift */; };
+		22ECD24220F2AB3400C9241A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ECD24020F2AB3400C9241A /* Main.storyboard */; };
+		22ECD24420F2AB3500C9241A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ECD24320F2AB3500C9241A /* Assets.xcassets */; };
+		22ECD24720F2AB3500C9241A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ECD24520F2AB3500C9241A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221C793920F4CF1F0052115C /* TransferDutySettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDutySettingsViewController.swift; sourceTree = "<group>"; };
+		221C793B20F4DA100052115C /* DeedsOfficeFeesSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeedsOfficeFeesSettingsViewController.swift; sourceTree = "<group>"; };
+		221C793D20F4E5B90052115C /* DiverseCostsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiverseCostsSettingsViewController.swift; sourceTree = "<group>"; };
+		221C793F20F4EC9F0052115C /* SettingsCalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCalibrationViewController.swift; sourceTree = "<group>"; };
+		2226C33C20F3FE16009281B6 /* TransferFeesSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferFeesSettingsViewController.swift; sourceTree = "<group>"; };
+		22ECD23920F2AB3400C9241A /* Transfer Costs App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transfer Costs App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ECD23C20F2AB3400C9241A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22ECD23E20F2AB3400C9241A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22ECD24120F2AB3400C9241A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22ECD24320F2AB3500C9241A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ECD24620F2AB3500C9241A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22ECD24820F2AB3500C9241A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ECD23620F2AB3400C9241A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22ECD23020F2AB3400C9241A = {
+			isa = PBXGroup;
+			children = (
+				22ECD23B20F2AB3400C9241A /* Transfer Costs App */,
+				22ECD23A20F2AB3400C9241A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ECD23A20F2AB3400C9241A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ECD23920F2AB3400C9241A /* Transfer Costs App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ECD23B20F2AB3400C9241A /* Transfer Costs App */ = {
+			isa = PBXGroup;
+			children = (
+				22ECD23C20F2AB3400C9241A /* AppDelegate.swift */,
+				22ECD23E20F2AB3400C9241A /* ViewController.swift */,
+				2226C33C20F3FE16009281B6 /* TransferFeesSettingsViewController.swift */,
+				221C793920F4CF1F0052115C /* TransferDutySettingsViewController.swift */,
+				221C793B20F4DA100052115C /* DeedsOfficeFeesSettingsViewController.swift */,
+				221C793D20F4E5B90052115C /* DiverseCostsSettingsViewController.swift */,
+				221C793F20F4EC9F0052115C /* SettingsCalibrationViewController.swift */,
+				22ECD24020F2AB3400C9241A /* Main.storyboard */,
+				22ECD24320F2AB3500C9241A /* Assets.xcassets */,
+				22ECD24520F2AB3500C9241A /* LaunchScreen.storyboard */,
+				22ECD24820F2AB3500C9241A /* Info.plist */,
+			);
+			path = "Transfer Costs App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ECD23820F2AB3400C9241A /* Transfer Costs App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ECD24B20F2AB3500C9241A /* Build configuration list for PBXNativeTarget "Transfer Costs App" */;
+			buildPhases = (
+				22ECD23520F2AB3400C9241A /* Sources */,
+				22ECD23620F2AB3400C9241A /* Frameworks */,
+				22ECD23720F2AB3400C9241A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transfer Costs App";
+			productName = "Transfer Costs App";
+			productReference = 22ECD23920F2AB3400C9241A /* Transfer Costs App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ECD23120F2AB3400C9241A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Eberhardt Korf";
+				TargetAttributes = {
+					22ECD23820F2AB3400C9241A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 22ECD23420F2AB3400C9241A /* Build configuration list for PBXProject "Transfer Costs App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ECD23020F2AB3400C9241A;
+			productRefGroup = 22ECD23A20F2AB3400C9241A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ECD23820F2AB3400C9241A /* Transfer Costs App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ECD23720F2AB3400C9241A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ECD24720F2AB3500C9241A /* LaunchScreen.storyboard in Resources */,
+				22ECD24420F2AB3500C9241A /* Assets.xcassets in Resources */,
+				22ECD24220F2AB3400C9241A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ECD23520F2AB3400C9241A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ECD23F20F2AB3400C9241A /* ViewController.swift in Sources */,
+				2226C33D20F3FE16009281B6 /* TransferFeesSettingsViewController.swift in Sources */,
+				221C793A20F4CF1F0052115C /* TransferDutySettingsViewController.swift in Sources */,
+				221C793C20F4DA100052115C /* DeedsOfficeFeesSettingsViewController.swift in Sources */,
+				221C794020F4EC9F0052115C /* SettingsCalibrationViewController.swift in Sources */,
+				22ECD23D20F2AB3400C9241A /* AppDelegate.swift in Sources */,
+				221C793E20F4E5B90052115C /* DiverseCostsSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22ECD24020F2AB3400C9241A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ECD24120F2AB3400C9241A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22ECD24520F2AB3500C9241A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ECD24620F2AB3500C9241A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22ECD24920F2AB3500C9241A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22ECD24A20F2AB3500C9241A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ECD24C20F2AB3500C9241A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRV6DT4K88;
+				INFOPLIST_FILE = "Transfer Costs App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eberhardtkorf.TransferCostsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22ECD24D20F2AB3500C9241A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRV6DT4K88;
+				INFOPLIST_FILE = "Transfer Costs App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eberhardtkorf.TransferCostsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ECD23420F2AB3400C9241A /* Build configuration list for PBXProject "Transfer Costs App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ECD24920F2AB3500C9241A /* Debug */,
+				22ECD24A20F2AB3500C9241A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ECD24B20F2AB3500C9241A /* Build configuration list for PBXNativeTarget "Transfer Costs App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ECD24C20F2AB3500C9241A /* Debug */,
+				22ECD24D20F2AB3500C9241A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ECD23120F2AB3400C9241A /* Project object */;
+}
